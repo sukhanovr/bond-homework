@@ -16,6 +16,6 @@ To run the tests:
 
 Task itself:
 
-Write a functions needed for tests to suceed, thats it, how functions should behave fully described in test
+Write a functions needed for tests to succeed, thats it, how functions should behave fully described in test
 Good luck :)
   
