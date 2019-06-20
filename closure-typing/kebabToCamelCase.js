@@ -12,5 +12,4 @@ function kebabToCamelCase(userInput) {
   }
   return newString;
 }
-
 module.exports = kebabToCamelCase;

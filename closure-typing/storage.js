@@ -19,5 +19,4 @@ function storage() {
     };
     return store;
 }
-
 module.exports = storage;

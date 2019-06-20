@@ -26,7 +26,6 @@ function calculator(userInput) {
       return firstNumber / secondNumber
     }
   }
-
   switch (operator){
     case '+':
       result = firstNumber + secondNumber;
