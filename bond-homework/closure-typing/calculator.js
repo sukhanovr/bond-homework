@@ -14,3 +14,4 @@ function calculator(str) {
 }
 
 module.exports = calculator;
+
