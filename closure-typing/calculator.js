@@ -17,7 +17,7 @@ function calculator(userInput) {
   
 
   // Main logic
-
+  // some new comments
   function ZeroDivisionException(firstNumber, secondNumber){
     if (secondNumber == 0){
       return 0;
