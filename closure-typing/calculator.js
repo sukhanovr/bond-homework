@@ -19,24 +19,3 @@ function calculator(str) {
 }
 
 module.exports = calculator;
-
-
-
-console.log(calculator('3+2+4*4'))
-
-
-
-
-
-
-
-
-/*
-    '+' : function(a, b) {return BigInt(a + b)},
-    '-' : function(a, b) {return BigInt(a - b)},
-    '*' : function(a, b) {return BigInt(a * b)},
-    '/' : function(a, b) {return BigInt(a / b)}
-  }
-
-
-*/
