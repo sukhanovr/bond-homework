@@ -26,12 +26,12 @@ describe('calculator', () => {
 
 
     // optional
-    // it('should calculate more than two  numbers', () => {
-    //   assert.equal(calculator('32+12+2+3'), 49)
-    // })
+     it('should calculate more than two  numbers', () => {
+       assert.equal(calculator('32+12+2+3'), 49)
+     })
 
-    // it('should calculate decimals as well', () => {
-    //   assert.equal(calculator('32.2+12.3+2.23+3.56'), 50.29)
-    // })
+    it('should calculate decimals as well', () => {
+      assert.equal(calculator('32.2+12.3+2.23+3.56'), 50.29)
+     })
   })
 })
