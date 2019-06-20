@@ -11,7 +11,7 @@ function calculator(str) {
   } else if(str.includes("/")) {
     return str.split("/").reduce((res, a, i) => {return i ? res / a : a}, 0);
   }
-}
 
+}
 module.exports = calculator;
 

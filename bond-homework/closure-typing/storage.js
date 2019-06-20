@@ -1,4 +1,3 @@
-
 function storage() {
     let obj = {};
 
