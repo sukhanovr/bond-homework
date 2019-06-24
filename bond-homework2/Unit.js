@@ -45,7 +45,7 @@ Unit.prototype.earnExperience = function (amount) {
 Unit.prototype.levelUp = function () {
     this._xp -= 1000;
     this._level += 1;
-    console.log('Игрок достиг уровня ' + this._level)
+    console.log('Персонаж достиг уровня ' + this._level)
 }
 
 Unit.prototype.stats = function () {

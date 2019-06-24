@@ -8,7 +8,7 @@ function Soldier() {
 Soldier.prototype = Object.create(Unit.prototype);
 
 Soldier.prototype.handAttack = function (char) {
-    if (char.isAlive()) {
+    if (this.isAlive() && char.isAlive()) {
         let damage = this._attackPower + (this._attackPower * (this._level * 0.1));
         char.takeDamage(damage);
         this.earnExperience(250);
